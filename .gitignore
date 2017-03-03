@@ -1,0 +1,5 @@
+.DS_STORE
+testReactEnVirtualenv/node_modules
+static
+testReactEnVirtualenv/.module-cache
+*.log*
