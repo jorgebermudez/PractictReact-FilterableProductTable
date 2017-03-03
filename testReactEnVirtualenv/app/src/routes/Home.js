@@ -1,13 +1,17 @@
 import React from 'react';
+import {Link} from "react-router"
+
 
 export default class Home extends React.Component {
   constructor() {
     super();
   }
   render() {
-    return {
+    return (
      <div>
+       <h1> History </h1>
+       <Link to="store" >Store</Link>
      </div>
-    }
+   )
   }
 }
