@@ -1,0 +1,38 @@
+
+
+
+Crear virtualenv
+
+installar node en el virtualenv con
+tutorial
+http://kartoza.com/en/blog/nodeenv-how-to-install-nodejs-in-a-python-virtualenv/
+
+
+>crear virtualenv
+mkvirtualenv
+>instalar nodeenv
+pip install nodeenv
+>instalar node
+nodeenv -p	
+
+
+Luego en virtualenv
+
+1- Inicializar proyecto
+npm init
+
+2- Instalar webpack
+npm install --save webpack
+
+3- copio en archovo de configuracion inicial de webpack y lo llamo webpack.config.js
+
+4- istalar webpack de manera gloval para poder correr el comanod webpack
+npm install -g webpack
+
+5- Agregar dependencias a PAKAGE.JSON
+AGREO LA LISTA DE DEPENDENDCIAS Y LAS INSTALO CON EL COMANDO
+nmp install
+
+
+6- PARA CORRER USAR
+	npm start

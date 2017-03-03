@@ -1,0 +1,26 @@
+redux : se usa junto con react para maneja el estado y variables globales de tu
+ aplicacion ( es similar a un stor ) guarda cosas javascript
+(funciona como diccionario ) se traen los datos desde el servidor y se guradan
+en react
+
+
+Webpack ( manejador de modulos y demas cosas ... en un archivo de configuracion
+digo donde estan las cosas y minifica ,ordena ....toma todos los modulos de
+noud y los acomoda
+
+wEBPACK ES SIMIL GRUNT
+
+
+REDUX
+
++store
+  El store va a tener cuatro responsabilidades:
+    1-Almacenar el estado global de la aplicación
+    2-Dar acceso al estado mediante store.getState()
+    3-Permitir que el estado se actualice mediante store.dispatch()
+    4-Registrar listeners mediante store.subscribe(listener)
+
++reducer
+
+  Reducer es una función pura que recibe el estado actual y una acción y devuelve el nuevo estado.
+  (prevState, action) => nextState
